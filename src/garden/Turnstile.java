@@ -1,4 +1,4 @@
-/**
+package garden; /**
  * Class not to be modified
  */
 
@@ -7,6 +7,7 @@
  *
  */
 import java.awt.*;
+import java.util.concurrent.Semaphore;
 
 public final class Turnstile extends Thread {
     TextCanvas display_;
@@ -14,8 +15,9 @@ public final class Turnstile extends Thread {
     Counter people_;
     int delay_;
     boolean suspended = true;
-
-    Turnstile(TextCanvas t,Counter c, int d) {
+    Semaphore semaphore;
+    Turnstile(TextCanvas t, Counter c, int d,Semaphore semaphore) {
+        this.semaphore=semaphore;
         display_ = t;
         display_.setcolor(Color.red);
         people_ = c;
@@ -48,7 +50,13 @@ public final class Turnstile extends Thread {
             try {Thread.sleep(delay_);} catch(InterruptedException e){}
             count_++;
             display_.setvalue(count_);
-            people_.increment();
+              try {
+                  semaphore.acquire();
+                  people_.increment();
+                  semaphore.release();
+              } catch (InterruptedException e) {
+                  e.printStackTrace();
+              }
           }
     }
 

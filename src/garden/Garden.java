@@ -1,4 +1,4 @@
-/**
+package garden; /**
  * Class not to be modified
  */
 
@@ -8,6 +8,7 @@
  */
 import java.awt.*;
 import java.awt.event.*;
+import java.util.concurrent.Semaphore;
 
 public class Garden extends Panel implements ActionListener {
 	public static final long serialVersionUID = 1L;
@@ -30,7 +31,7 @@ public class Garden extends Panel implements ActionListener {
 
         // Set up Display
         Panel p2 = new Panel();
-        TextCanvas gardenD = new TextCanvas("Garden");
+        TextCanvas gardenD = new TextCanvas("garden.Garden");
         TextCanvas westD = new TextCanvas("West");
         TextCanvas eastD = new TextCanvas("East");
         gardenD.setSize(150,100);
@@ -46,9 +47,10 @@ public class Garden extends Panel implements ActionListener {
         add("South",p1);
 
         // Create Thread
+        Semaphore semaphore=new Semaphore(1);
         Counter people_ = new Counter(gardenD);
-        west_= new Turnstile(westD,people_,500);
-        east_= new Turnstile(eastD,people_,500);
+        west_= new Turnstile(westD,people_,500,semaphore);
+        east_= new Turnstile(eastD,people_,500,semaphore);
         west_.start();
         east_.start();
     }

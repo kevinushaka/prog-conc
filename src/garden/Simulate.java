@@ -1,4 +1,4 @@
-/**
+package garden; /**
  * Class not to be modified
  */
 
