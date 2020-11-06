@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d18e9ce-83af-4d73-8b15-83936af64d92" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/image/architecture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/image/bluecar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/image/bridge.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/image/redcar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/src/BlueCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/src/BlueCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/src/Bridge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/src/Bridge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/src/BridgeCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/src/BridgeCanvas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/src/FairBridge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/src/FairBridge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/src/RedCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/src/RedCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/src/SafeBridge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/src/SafeBridge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/src/SingleLaneBridge$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/src/SingleLaneBridge$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/src/SingleLaneBridge$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/src/SingleLaneBridge$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/src/SingleLaneBridge$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/src/SingleLaneBridge$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/src/SingleLaneBridge$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/src/SingleLaneBridge$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/src/SingleLaneBridge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/03_Le_pont/src/SingleLaneBridge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/__MACOSX/03_Le_pont/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/__MACOSX/03_Le_pont/.settings/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/__MACOSX/03_Le_pont/image/._architecture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_Le_pont/__MACOSX/03_Le_pont/src/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-lecteurs_redacteurs.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/carpool/Arrivals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/carpool/CarPark$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/carpool/CarPark.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/carpool/CarParkCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/carpool/CarParkControl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/carpool/Departures.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/carpool/DisplayCarPark.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/carpool/DisplayThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/carpool/GraphicCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/carpool/NumberCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/carpool/SlotCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/carpool/StringCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/carpool/ThreadPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/garden/Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/garden/Garden$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/garden/Garden.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/garden/Simulate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/garden/TextCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/garden/Turnstile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/lecteurredacteur/DisplayReadWrite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/lecteurredacteur/DisplayThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/lecteurredacteur/GraphicCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/lecteurredacteur/ReadWrite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/lecteurredacteur/ReadWriteFair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/lecteurredacteur/ReadWritePriority.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/lecteurredacteur/ReadWriteSafe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/lecteurredacteur/ReadWriteUnsafe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/lecteurredacteur/Reader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/lecteurredacteur/ReadersWriters$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/lecteurredacteur/ReadersWriters$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/lecteurredacteur/ReadersWriters$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/lecteurredacteur/ReadersWriters$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/lecteurredacteur/ReadersWriters$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/lecteurredacteur/ReadersWriters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/lecteurredacteur/StringCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/lecteurredacteur/ThreadPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/lecteurredacteur/ThreadPanel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/lecteurredacteur/ThreadPanel$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/lecteurredacteur/ThreadPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/lecteurredacteur/Writer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/pont/BlueCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/pont/Bridge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/pont/BridgeCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/pont/FairBridge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/pont/RedCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/pont/SafeBridge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/pont/SingleLaneBridge$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/pont/SingleLaneBridge$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/pont/SingleLaneBridge$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/pont/SingleLaneBridge$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/pont/SingleLaneBridge$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/pont/SingleLaneBridge$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/pont/SingleLaneBridge$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/pont/SingleLaneBridge$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/prog-conc/pont/SingleLaneBridge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rendu 3/.ipynb_checkpoints/simulation_deplacement_foule_etudiant-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rendu 3/__MACOSX/._maps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rendu 3/__MACOSX/._simulation_deplacement_foule_etudiant.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rendu 3/__MACOSX/maps/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rendu 3/__MACOSX/maps/._map-final.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rendu 3/__MACOSX/maps/._map-initial.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rendu 3/affichage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rendu 3/const.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rendu 3/maps/map-final.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rendu 3/maps/map-initial.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rendu 3/simulation_deplacement_foule_etudiant.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carpool/CarPark.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carpool/CarParkControl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carpool/NumberCanvas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carpool/SlotCanvas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carpool/StringCanvas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carpool/ThreadPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/garden/Counter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/garden/Garden.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/garden/Simulate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/garden/TextCanvas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/garden/Turnstile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecteurredacteur/DisplayReadWrite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecteurredacteur/ReadWrite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecteurredacteur/ReadWriteFair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecteurredacteur/ReadWritePriority.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecteurredacteur/ReadWriteSafe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecteurredacteur/ReadWriteUnsafe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecteurredacteur/ReadersWriters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecteurredacteur/StringCanvas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecteurredacteur/ThreadPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pont/BlueCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pont/BlueCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pont/Bridge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pont/Bridge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pont/BridgeCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pont/BridgeCanvas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pont/FairBridge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pont/FairBridge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pont/RedCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pont/RedCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pont/SafeBridge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pont/SafeBridge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pont/SingleLaneBridge$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pont/SingleLaneBridge$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pont/SingleLaneBridge$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pont/SingleLaneBridge$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pont/SingleLaneBridge$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pont/SingleLaneBridge$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pont/SingleLaneBridge$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pont/SingleLaneBridge$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pont/SingleLaneBridge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pont/SingleLaneBridge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/td08-ipc-correction.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/td08-ipc-correction/.Makefile.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/td08-ipc-correction/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/td08-ipc-correction/common.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/td08-ipc-correction/common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/td08-ipc-correction/entrer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/td08-ipc-correction/sortir.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/td09-posix-correction.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/td09-posix-correction/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/td09-posix-correction/common.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/td09-posix-correction/common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/td09-posix-correction/parking.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/td8/parking" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/td8/parking.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/td9/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/td9/main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/td9/main.c" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1juVp2gRdLFLzoJi2893W4g7w1o" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d18e9ce-83af-4d73-8b15-83936af64d92" name="Default Changelist" comment="" />
+      <created>1604654144759</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604654144759</updated>
+    </task>
+    <servers />
+  </component>
+</project>
