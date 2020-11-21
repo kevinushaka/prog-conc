@@ -42,7 +42,10 @@ public class ParallelAtomicStats implements Stats {
 			int local_min = ary[start];
 			int local_max = ary[start];
 			for (int j = start + 1; j < end; j++) {
-			    // A compléter
+				if(ary[j]<local_min)
+					local_min=ary[j];
+				if(ary[j]>local_max)
+					local_max=ary[j];
 			}
 			// propose le min et max comme valeurs candidates pour
 			// les extrema globaux
@@ -92,10 +95,20 @@ public class ParallelAtomicStats implements Stats {
 		// si le CAS reussi l'assignation est terminee et
 		// on quitte la boucle, sinon on retente l'assignation
 		// si necessaire
- 		maxOk = true; // A modifier
+				if(globalMax.compareAndSet(tmp,max)){maxOk = true;}
+ 		 // A modifier
             }
 	} while (!maxOk);
 
 	// faire la même chose pour affecter le globalMin
+		boolean minOK = false;
+		do {
+			int tmp = globalMin.get();
+			if (tmp <= min) {
+				minOK = true;
+			} else {
+				if(globalMin.compareAndSet(tmp,min)){minOK = true;}
+			}
+		} while (!minOK);
     }
 }

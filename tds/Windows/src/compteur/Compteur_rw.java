@@ -6,7 +6,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 public class Compteur_rw implements Callable<Long> {
     static long compteur;
-    ReadWriteLock lock;
+    static ReadWriteLock lock;
     int nbIt;
     Compteur_rw(int nbIterations){
         lock=new ReentrantReadWriteLock();

@@ -40,7 +40,10 @@ public class ParallelLockStats implements Stats {
 			int local_min = ary[start];
 			int local_max = ary[start];
 			for (int j = start+1; j < end; j++ ) {
-			    // A compléter
+			    if(ary[j]<local_min)
+			    	local_min=ary[j];
+			    if(ary[j]>local_max)
+			    	local_max=ary[j];
 			}
 			// propose le min et max comme valeurs candidates pour
 			// les extrema globaux
@@ -75,7 +78,7 @@ public class ParallelLockStats implements Stats {
      */
 
     // A modifier si nécéssaire
-    private void setExtrema(int min, int max) {
+    private synchronized void setExtrema(int min, int max) {
 	if (min < globalMin) {
 	    globalMin = min;
 	}
