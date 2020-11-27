@@ -5,7 +5,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class Compteur_lock implements Callable<Long> {
     static long compteur;
-    ReentrantLock lock;
+    static ReentrantLock lock;
     int nbIt;
     Compteur_lock(int nbIterations){
         lock=new ReentrantLock();

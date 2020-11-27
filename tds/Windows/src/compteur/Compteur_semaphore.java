@@ -6,7 +6,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class Compteur_semaphore implements Callable<Long> {
     static long compteur;
-    Semaphore semaphore;
+    static Semaphore semaphore;
     int nbIt;
     Compteur_semaphore(int nbIterations){
         semaphore=new Semaphore(1);
